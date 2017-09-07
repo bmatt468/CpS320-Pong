@@ -2,16 +2,13 @@
 ; Author: Benjamin Matthews
 ; Date: 12/9/2011
 ; Runs in real mode. Uses Irvine Library
-; Bugs that are known to me: (hope you're ready for this Dr. Lovegrove)
-; 1) Code is extremely complex to most. I usually tend to stick to
-;    methods in higher languages, so I tried to incorporate that here.
-;
-; 2) When ball is moving across the screen, it is extremely laggy. Spent a
+; Bugs that are known to me: 
+; 1) When ball is moving across the screen, it is extremely laggy. Spent a
 ;    fair amount of time trying to figure it out to no avail.
-
-; 3) When pressing "f" or "s" too rapidly, the program freezes.
 ;
-; 4) When ball is missed, sometimes the circle is drawn above or below the ball rather than around.
+; 2) When pressing "f" or "s" too rapidly, the program freezes.
+;
+; 3) When ball is missed, sometimes the circle is drawn above or below the ball rather than around.
 
 .model small
 .stack 100h
